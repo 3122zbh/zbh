@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片画廊</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gallery">
+        <!-- 在此处添加图片 -->
+        <img class="thumbnail" src="C:\Users\ZBH\Desktop\a.jpg" alt="a" onclick="openModal(this.src)">
+        <img class="thumbnail" src="C:\Users\ZBH\Desktop\b.jpg" alt="b" onclick="openModal(this.src)">
+        <img class="thumbnail" src="C:\Users\ZBH\Desktop\c.jpg" alt="c" onclick="openModal(this.src)">
+        <img class="thumbnail" src="C:\Users\ZBH\Desktop\d.jpg" alt="d" onclick="openModal(this.src)">
+        <img class="thumbnail" src="C:\Users\ZBH\Desktop\e.jpg" alt="e" onclick="openModal(this.src)">
+        <img class="thumbnail" src="C:\Users\ZBH\Desktop\f.jpg" alt="f" onclick="openModal(this.src)">
+        
+    </div>
+
+    <div id="modal" class="modal" onclick="closeModal()">
+        <img id="modalImage" src="" alt="放大图片">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
